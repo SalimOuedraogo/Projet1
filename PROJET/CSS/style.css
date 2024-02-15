@@ -1,0 +1,503 @@
+
+body{
+    background-color: black;
+    color: white;
+    font-size: 2em;
+}
+
+
+header{
+    display: flex;
+    background-image: url(../Images/universe5.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+    justify-content: center;
+}
+.header-content{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.home-title{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    font-weight: bolder;
+    color: rgba(214, 2, 2, 0.979);
+    text-shadow: wheat 2px 5px;
+    width: 100%;
+}
+header div{
+    padding: 5px;
+}
+h1{
+    font-size: 2em;
+}
+h1 span.nom1{
+    color: darkorange;
+}
+h1 span.nom2{
+    color: darkorange;
+}
+div.logo img{
+    max-width: 100px;
+    /*background-color: white;*/
+}
+
+nav {
+    position: sticky;
+    top: 1px;
+    margin: 25px auto;
+    background-color: darkgray;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    z-index: 1000;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 75%;
+    margin-top: 0px;
+}
+
+nav ul li img{
+    max-height: 50px;
+    padding-top: 5px;
+    position: relative;
+}
+
+.nav2ETmain-content{
+    display: flex;
+    align-content: center;
+    text-align: center;
+    width: 90%;
+    margin-bottom: 5px;
+}
+
+div.nav2{
+    position: sticky;
+    top: 65px;
+    background-color: antiquewhite;
+    height: 100%;
+}
+div.nav2 ul{
+    list-style: none;
+    padding: 0 0.2em 0 0.2em;
+}
+
+div.nav2 img{
+    height: 40px;
+}
+.main-content{
+    margin: 2%;
+    width: 100%;
+}
+
+span.barre-red-titre{
+    text-transform: uppercase;
+    border-bottom: 5px solid red;
+}
+span.barre-blu-name{
+    text-decoration: underline;
+    text-decoration-color: blue;
+}
+
+.section-content{
+    padding-top: 25px;
+}
+
+
+.Pr-mode{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    width: 100%;
+    height: 320px;
+}
+.Pr-mode-child{
+    margin: 7px;
+    width: 7em;
+}
+
+
+div.Pr-mode-child img{
+    height: 270px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0;
+}
+div.Pr-mode-child p{
+    margin-top: 0;
+    font-size: 30px;
+
+}
+
+.block1 ,.block2, .block3{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+.block3{
+    justify-content: space-between;
+}
+.actu1, .appareils{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overplay{
+    color: whitesmoke;
+    position: absolute;
+    font-family: monospace;
+    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+    /*background-color:blueviolet;*/
+}
+div.appareils div.overplay{
+    /*a renmplir;*/
+}
+
+div.actu1 div.overplay{
+    width: 25%;
+    font-size: 25%;
+}
+.actu{
+    font-size: ;
+}
+
+div.actu1 img{
+    height: 98%;
+    width: 98%;
+}
+.source{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.source p, .source a{
+    margin: 10px;
+}
+
+footer{
+    margin-bottom: 0;
+    padding-bottom: 0;
+    background: rgb(54,24,0);
+    background: linear-gradient(90deg, rgba(54,24,0,1) 0%, rgba(51,46,41,1) 7%, rgba(156,143,131,1) 32%, rgba(9,9,9,1) 55%, rgba(170,165,148,1) 84%, rgba(7,10,6,1) 100%);
+}
+
+section.affiche img, #contact img, .local img{
+    height: 3em;
+}
+.local{
+    display: flex;
+    font-size: 0.4em;
+}
+
+div.copyright, section.affiche, div.logos ul, .local{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    align-content: center;
+    text-align: center;
+}
+section.affiche{
+    justify-content: space-between;
+    font-size: 75%;
+}
+div.copyright, .local{
+    justify-content: center;
+}
+
+div.copyright p, div.partenaires p{
+    margin: 10px;
+}
+
+section.affiche div.logo{
+    left: 15px;
+    padding-top: 15px;
+}
+section.affiche p, .logos ul, .copyright h5{
+    margin: 0px;
+    padding: 0;
+}
+div.logos img{
+    font-size: 0.4em;
+    margin: 0.2em;
+}
+
+.pack-icones img, .faq img{
+    height: 60px;
+    margin: 3px;
+    font-size: 40%;
+}
+
+.discounts{
+    display: flex;
+}
+.block3 .block-child{
+    background-color: blue;
+    max-width: auto;
+    height: auto;
+    margin: 5px 2% 5px;
+}
+.img-produitETtitre img{
+    height: auto;
+    max-width: 100%;
+}
+.img-produitETtitre{
+    background-color: beige;
+    width: auto;
+    height: auto;
+}
+.sale{
+    display: flex;
+}
+.sale .img-sale{
+    position: absolute;
+    max-width: 10%;
+}
+.img-sale img{
+    margin-left: 10%;
+    width: 100%;
+    height: auto;
+}
+
+.prix-ofrres-ratings{
+    background-color: aqua;
+    margin-top: 0;
+    width: auto;
+    padding: 7px;
+    font-size: 70%;
+    height: 100%;
+}
+.price, .price-promo{
+    display: flex;
+}
+.block-child a{
+    text-decoration: none;
+    color: initial;
+}
+
+.price{
+    color: black;
+}
+.description a{
+    text-decoration: none;
+    color: white;
+}
+.ratings img{
+    height: 1.2em;
+}
+.ratings ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    height: auto;
+    width: 100%;
+}
+.ratings{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ratings ul{
+    padding: 0;
+    margin: 3px auto 0;
+}
+
+.block-child h4{
+    padding: auto;
+    margin: 0;
+    font-size: 0.8em;
+}
+.block{
+    width: 100%;
+}
+
+.discounts{
+    justify-content: space-between;
+    align-items: center;
+}
+.discounts, .ratings{
+    height: 1em;
+    margin-top: 5px;
+    width: auto;
+}
+.percent-discounts{
+    color: red;
+    margin: 0;
+}
+.block3{
+    margin: 5% auto 15%;
+}
+
+
+/*.description{
+    background-color: blueviolet;
+}
+
+.details-produit{
+   background-color: antiquewhite;
+    height: 380px;
+    text-align: left;
+    font-size: 20px;
+}*/
+
+
+.description{
+    display: flex;
+    width: auto;
+}
+.img-content img{
+    height: auto;
+    width: 100%;
+}
+.img-content{
+}
+.details{
+    height: auto;
+    width: auto;
+    padding-left: 30px;
+    font-size: 75%;
+}
+
+
+.ratings-content, .price-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.ratings-content .ratings ul{
+    padding-top: 10px;
+}
+
+.caracteristiques-content{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 75%
+}
+.caracteristiques-details{
+    width: auto;
+    margin-left: 15%;
+}
+/*
+.suggestions{
+    background-color: blue;
+    width: 20%;
+    height: 100%;
+    padding-top: 0%;
+}
+
+.suggestions span{
+    background-color: black;
+    font-size: 0.5em;
+}
+
+
+.suggestions .img-produits img{
+    height: 100%;
+}
+.suggestions .img-produitETtitre{
+    height: ;
+}
+.suggestions .sales{
+    height: 100%;
+}
+
+.suggestions .block-child{
+    background-color: brown;
+    width: 100%;
+    height: auto;
+}
+
+
+.suggestions  .prix-ofrres-ratings{
+    height: 100%;
+    font-size: 0.5em;
+    padding-bottom: 0;
+}
+.suggestions .discounts{
+    height: auto;
+}
+*/
+.commentaire p{
+    font-size: 0.8em;
+}
+.suggestions , #avis{
+    text-align: center;
+}
+
+.texte-barre{
+    text-decoration: line-through;
+    text-decoration-color: red;
+    font-size: 80%;
+}
+.price-symbol{
+    margin-left: 5px;
+}
+.price-promo{
+    color: red;
+    font-size: ;
+}
+
+.main-marge{
+    margin: 5%;
+}
+
+.name-u p{
+    text-align: left;
+    border-bottom: 2px solid orange;
+}
+.commentaire{
+    text-align: justify;
+    margin-left: 15px;
+    margin-right: 15px;
+    border: dashed rgb(221, 187, 126);
+}
+
+.block3{
+    font-size: 30%;
+}
+.img-content-scan img{
+    width: 30%;
+}
+
+nav ul li a:hover{
+    box-shadow: 0px 15px 20px #ff9d80;
+    color: red;
+    font-weight: bolder;
+    transform: translateY(-7px);
+}
+nav ul li a:active{
+    background-color: skyblue;
+    box-shadow: 0px 15px 20px slategray;
+    color: white;
+    font-weight: bolder;
+    transform: translateY(-7px);
+}
+nav ul li a:focus{
+    outline: 2px solid #007bff;
+    background-color: white;
+    color: red;
+}
+
+@media only screen and (max-width: 700px) {
+    body{
+        font-size: 50%;
+    }
+    img{
+        width: 45%;
+    }
+
+}
